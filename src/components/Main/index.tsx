@@ -1,10 +1,11 @@
 import React from 'react'
+import * as S from './styles'
 
 function Main() {
   return (
-    <main>
-      <h1>Template NextJs</h1>
-    </main>
+    <S.Main>
+      <S.Title>Template NextJs</S.Title>
+    </S.Main>
   )
 }
 
