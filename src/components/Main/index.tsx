@@ -2,9 +2,9 @@ import React from 'react'
 
 function Main() {
   return (
-    <div>
+    <main>
       <h1>Template NextJs</h1>
-    </div>
+    </main>
   )
 }
 
