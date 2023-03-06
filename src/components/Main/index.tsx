@@ -1,15 +1,15 @@
 import React from 'react'
 import * as S from './styles'
 
-function Main() {
+const Main = ({
+  title = 'Template NextJs',
+  description = 'A simple template NextJs, with: ReactJs, ESLint, Jest, React/Testing Library and Styled-Components'
+}) => {
   return (
     <S.Wrapper>
       <S.Content>
-        <S.Title>Template NextJs</S.Title>
-        <S.Description>
-          A simple template NextJs, with: ReactJs, ESLint, Jest, React/Testing
-          Library and Styled-Components.
-        </S.Description>
+        <S.Title>{title}</S.Title>
+        <S.Description>{description}</S.Description>
       </S.Content>
     </S.Wrapper>
   )
